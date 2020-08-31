@@ -1,0 +1,467 @@
+@import 'reset.scss';
+
+@import 'fonts.scss';
+
+@import 'settings.scss';
+
+header {
+  height: 120px;
+}
+
+.wr-preview {
+  background-image: url("../media/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+
+}
+
+header ul {
+  display: flex;
+  height: 100%;
+}
+
+.container-nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+header nav a {
+  font-family: 'Gentium Book Basic';
+  color: #fff;
+  font-size: 21px;
+  text-transform: capitalize;
+}
+
+header nav li {
+  margin-left: 28px;
+  padding: 0 13px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+header nav .active {
+  border-top: 3px solid #cdcbc0;
+  border-bottom: 3px solid transparent;
+}
+
+header nav {
+  height: 100%;
+}
+
+header .social {
+  align-items: center;
+}
+
+header .social li {
+  margin-left: 18px;
+}
+
+/* set wr-promo */
+
+.wr-promo h1 {
+  font-size: 90px;
+  color: #f1f1f1;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.wr-promo .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 130px;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btn-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f1f1f1;
+  font-family: 'Lato';
+  font-size: 18px;
+  height: 57px;
+  width: 228px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: 1px solid;
+  margin: 0 15px;
+  margin-bottom: 142px;
+}
+
+.btn-container a:first-child {
+  background-color: rgba(0, 0, 0, .7);
+  border: #000;
+
+}
+
+.btn-container a:last-child {
+  background-color: rgba(255, 255, 255, .28);
+}
+
+.wr-promo .divider {
+  margin-bottom: 34px;
+  margin-top: 33px;
+}
+
+/* set wr-about */
+
+.wr-about {
+  background: linear-gradient(133deg, rgba(255, 255, 255, .09) 0%, rgba(0, 0, 0, .09) 100%);
+  box-shadow: inset -23px 0px 50px 0px rgba(1, 1, 1, 0.14);
+  background-image: url("../media/patternD.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.wr-about .container {
+  background-image: url("../media/rightdish.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.about {
+  max-width: 435px;
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.wr-about .container h2 {
+  font-size: 36px;
+  color: #cc9900;
+  margin-bottom: 40px;
+}
+
+.wr-about .divider {
+  margin-bottom: 50px;
+}
+
+.wr-about p {
+  font-family: 'Lato';
+  font-size: 16px;
+  margin-bottom: 40px;
+  line-height: 35px;
+}
+
+.wr-about .cook {
+  margin-bottom: 30px;
+}
+
+/* set wr-ingredients */
+
+.wr-ingredients {
+  background-image: url("../media/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+
+.wr-ingredients h2 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.wr-ingredients .divider {
+  margin-bottom: 30px;
+}
+
+.wr-ingredients p {
+  width: 409px;
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+
+
+.wr-ingredients .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wr-ingredients .all {
+  max-width: 570px;
+  border: 1px solid transparent;
+  background-color: rgba(0, 0, 0, .67);
+  background-image: url(../media/ingred3.png);
+  padding: 80px 70px;
+  align-items: center;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.pictures {
+  display: flex;
+  align-items: center;
+
+}
+
+.pic1 {
+  border-radius: 50%;
+  width: 100px;
+  border: 5px solid rgba(255, 255, 255, .09);
+  margin-right: 15px;
+
+}
+
+.pic2 {
+  border-radius: 50%;
+  width: 100px;
+  border: 5px solid rgba(255, 255, 255, .09);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.pic3 {
+  border-radius: 50%;
+  width: 100px;
+  border: 5px solid rgba(255, 255, 255, .09);
+  margin-left: 15px;
+}
+
+/* set wr-menu */
+
+.wr-menu {
+  background: linear-gradient(133deg, rgba(255, 255, 255, .09) 0%, rgba(0, 0, 0, .09) 100%);
+  box-shadow: inset -23px 0px 50px 0px rgba(1, 1, 1, 0.14);
+  background-image: url(../media/pattern2D.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #cc9900;
+}
+
+.wr-menu .container {
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+
+}
+
+.container .description {
+  font-family: 'Lato';
+  color: #4c4c4c;
+  font-size: 16px;
+}
+
+.wr-menu p {
+  font-size: 21px;
+  white-space: pre;
+}
+
+hr {
+  color: #c89f2d;
+  background-color: #c89f2d;
+  border: none;
+  height: 1px;
+  opacity: .4;
+  margin-bottom: 10px;
+  width: 430px;
+}
+
+.wr-menu .line {
+  margin: 10px 0px;
+}
+
+.wr-menu .first-row {
+  display: flex;
+  flex-direction: column;
+  margin-right: 85px;
+  width: 430px;
+}
+
+.wr-menu .second-row {
+  display: flex;
+  flex-direction: column;
+  margin-left: 85px;
+  width: 430px;
+}
+
+
+.wr-menu .appetisers {
+  margin-bottom: 50px;
+
+}
+
+.wr-menu .starters {
+  margin-bottom: 50px;
+}
+
+
+.wr-menu h3 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.wr-menu .logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.wr-menu .special {
+  width: 445px;
+  border: solid 1px rgba(200, 159, 45, .3);
+  padding: 10px 0px 15px 15px;
+  margin-bottom: 25px;
+  margin-left: -16px;
+}
+
+.wr-menu .menu {
+  margin-bottom: 40px;
+}
+
+.wr-menu .menu-spe {
+  margin-bottom: 6px;
+}
+
+.wr-menu .spe {
+  background-image: url(../media/special.png);
+  width: 69px;
+  height: 22px;
+  text-align: center;
+  margin-left: 377px;
+}
+
+.wr-menu .speci {
+  padding: 3px 14px;
+  font-family: 'Lato';
+  font-size: 14px;
+  color: #f8fafa;
+}
+.menu span {
+  float: right;
+}
+
+/* set wr-reviews */
+
+.wr-reviews {
+  background-image: url("../media/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.wr-reviews .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.guest-reviews {
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 36px;
+  width: 770px;
+  //height: 480px;
+  background-image: url("../media/guest-reviews.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 75px;
+  position: relative;
+
+
+}
+.guest-reviews img {
+  margin: 20px 0;
+}
+
+.guest-reviews span {
+  font-family: 'Georgia';
+  font-size: 96px;
+  color: rgba(242, 244, 244, 0.471);
+  position: absolute;
+  top: 170px;
+  left: 30px;
+}
+
+.guest-reviews .review {
+  font-family: 'Gentium Book Basic';
+  font-size: 25px;
+  line-height: 1.8;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 45px;
+}
+
+.reviewAuthor {
+  font-family: 'Lato';
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+/* set wr-booking */
+
+.wr-booking {
+  background-image: linear-gradient(133deg, rgba(255, 255, 255, .09) 0%, rgba(0, 0, 0, .09) 100%), url("../media/patternD.png") ;
+  box-shadow: inset -23px 0px 50px 0px rgba(1, 1, 1, 0.14);
+  //background-image: url("../media/patternD.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .book-block {
+    max-width: 500px;
+  }
+
+  .wr-booking_title {
+    font-size: 36px;
+    color: #cc9900;
+
+  }
+
+
+
+  .img-block_img {
+    margin-left: 30px;
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
